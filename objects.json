@@ -1,0 +1,861 @@
+{
+    "type": "FeatureCollection",
+    "features": {
+        "0": {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.831903,
+                    37.411961
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_0\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_0\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 0\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(0)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "1": {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.763338,
+                    37.565466
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_1\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_1\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 1\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(1)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "2": {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.763338,
+                    37.565466
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_2\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_2\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 2\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(2)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "3": {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.744522,
+                    37.616378
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_3\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_3\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 3\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(3)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "4": {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.780898,
+                    37.642889
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_4\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_4\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 4\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(4)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "5": {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.793559,
+                    37.435983
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_5\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_5\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 5\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(5)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "6": {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.800584,
+                    37.675638
+                ]
+            },
+            "properties": {
+                "status": "занято",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_6\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_6\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 6\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(6)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "7": {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.716733,
+                    37.589988
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_7\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_7\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 7\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(7)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "8": {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.775724,
+                    37.56084
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_8\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_8\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 8\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(8)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "9": {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.822144,
+                    37.433781
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_9\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_9\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 9\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(9)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "10": {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.87417,
+                    37.669838
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_10\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_10\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 10\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(10)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "11": {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.71677,
+                    37.482338
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_11\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_11\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 11\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(11)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "12": {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.78085,
+                    37.75021
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_12\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_12\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 12\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(12)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "13": {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.810906,
+                    37.654142
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_13\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_13\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 13\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(13)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "14": {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.865386,
+                    37.713329
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_14\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_14\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 14\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(14)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "15": {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.847121,
+                    37.525797
+                ]
+            },
+            "properties": {
+                "status": "занято",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_15\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_15\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 15\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(15)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "16": {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.778655,
+                    37.710743
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_16\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_16\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 16\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(16)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "17": {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.623415,
+                    37.717934
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_17\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_17\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 17\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(17)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "18": {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.863193,
+                    37.737
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_18\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_18\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 18\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(18)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "19": {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.86677,
+                    37.760113
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_19\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_19\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 19\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(19)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "20": {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.698261,
+                    37.730838
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_20\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_20\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 20\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(20)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "21": {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.6338,
+                    37.564769
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_21\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_21\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 21\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(21)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "22": {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.639996,
+                    37.5394
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_22\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_22\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 22\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(22)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "23": {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.69023,
+                    37.405853
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_23\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_23\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 23\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(23)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "24": {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.77597,
+                    37.5129
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_24\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_24\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 24\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(24)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "25": {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.775777,
+                    37.44218
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_25\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_25\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 25\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(25)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "26": {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.811814,
+                    37.440448
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_26\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_26\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 26\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(26)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "27": {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.751841,
+                    37.404853
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_27\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_27\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 27\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(27)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "28": {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.627303,
+                    37.728976
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_28\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_28\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 28\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(28)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "29": {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.816515,
+                    37.597163
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_29\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_29\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 29\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(29)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "30": {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.664352,
+                    37.689397
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_30\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_30\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 30\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(30)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "31": {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.679195,
+                    37.600961
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_31\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_31\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 31\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(31)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "32": {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.673873,
+                    37.658425
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_32\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_32\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 32\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(32)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "33": {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.681006,
+                    37.605126
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_33\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_33\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 33\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(33)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "34": {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.876327,
+                    37.431744
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_34\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_34\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 34\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(34)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "35": {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.843363,
+                    37.778445
+                ]
+            },
+            "properties": {
+                "status": "занято",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_35\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_35\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 35\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(35)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "36": {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.875445,
+                    37.549348
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_36\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_36\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 36\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(36)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "37": {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.662903,
+                    37.702087
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_37\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_37\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 37\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(37)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "38": {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.746099,
+                    37.434113
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_38\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_38\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 38\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(38)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "39": {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.83866,
+                    37.712326
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_39\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_39\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 39\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(39)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E",
+                "state": "занято"
+            }
+        },
+        "40": {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.774838,
+                    37.415725
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_40\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_40\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 40\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(40)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "41": {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.871539,
+                    37.630223
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_41\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_41\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 41\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(41)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "42": {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.657037,
+                    37.571271
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_42\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_42\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 42\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(42)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "43": {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.691046,
+                    37.711026
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_43\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_43\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 43\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(43)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "44": {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.803972,
+                    37.65961
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_44\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_44\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 44\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(44)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "45": {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.616448,
+                    37.452759
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_45\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_45\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 45\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(45)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "46": {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.781329,
+                    37.442781
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_46\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_46\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 46\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(46)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "47": {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.844708,
+                    37.74887
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_47\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_47\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 47\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(47)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "48": {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.723123,
+                    37.406067
+                ]
+            },
+            "properties": {
+                "status": "свободно",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_48\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_48\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 48\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(48)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "49": {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.858585,
+                    37.48498
+                ]
+            },
+            "properties": {
+                "status": "занято",
+                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
+                "balloonContentBody": "\u003Cdiv id=\u0027balloon_49\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_49\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 49\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(49)\u0027\u003EИзменить статус\u003C\/button\u003E",
+                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+            }
+        },
+        "": {
+            "properties": {
+                "status": null
+            }
+        }
+    }
+}
