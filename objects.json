@@ -1,7 +1,7 @@
 {
     "type": "FeatureCollection",
-    "features": {
-        "0": {
+    "features": [
+        {
             "type": "Feature",
             "id": 0,
             "geometry": {
@@ -12,13 +12,14 @@
                 ]
             },
             "properties": {
-                "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_0\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_0\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 0\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(0)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "status": "занято",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: занято<\/p><p><button onclick='changeStatus(0)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 0<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "1": {
+        {
             "type": "Feature",
             "id": 1,
             "geometry": {
@@ -30,12 +31,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_1\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_1\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 1\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(1)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(1)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 1<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "2": {
+        {
             "type": "Feature",
             "id": 2,
             "geometry": {
@@ -47,12 +49,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_2\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_2\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 2\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(2)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(2)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 2<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "3": {
+        {
             "type": "Feature",
             "id": 3,
             "geometry": {
@@ -63,13 +66,14 @@
                 ]
             },
             "properties": {
-                "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_3\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_3\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 3\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(3)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "status": "занято",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(3)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 3<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "4": {
+        {
             "type": "Feature",
             "id": 4,
             "geometry": {
@@ -80,13 +84,14 @@
                 ]
             },
             "properties": {
-                "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_4\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_4\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 4\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(4)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "status": "занято",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(4)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 4<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "5": {
+        {
             "type": "Feature",
             "id": 5,
             "geometry": {
@@ -98,12 +103,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_5\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_5\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 5\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(5)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(5)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 5<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "6": {
+        {
             "type": "Feature",
             "id": 6,
             "geometry": {
@@ -114,13 +120,14 @@
                 ]
             },
             "properties": {
-                "status": "занято",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_6\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_6\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 6\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(6)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "status": "свободно",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(6)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 6<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "7": {
+        {
             "type": "Feature",
             "id": 7,
             "geometry": {
@@ -132,12 +139,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_7\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_7\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 7\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(7)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(7)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 7<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "8": {
+        {
             "type": "Feature",
             "id": 8,
             "geometry": {
@@ -149,12 +157,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_8\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_8\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 8\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(8)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(8)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 8<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "9": {
+        {
             "type": "Feature",
             "id": 9,
             "geometry": {
@@ -166,12 +175,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_9\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_9\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 9\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(9)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(9)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 9<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "10": {
+        {
             "type": "Feature",
             "id": 10,
             "geometry": {
@@ -183,12 +193,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_10\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_10\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 10\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(10)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(10)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 10<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "11": {
+        {
             "type": "Feature",
             "id": 11,
             "geometry": {
@@ -200,12 +211,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_11\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_11\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 11\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(11)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(11)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 11<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "12": {
+        {
             "type": "Feature",
             "id": 12,
             "geometry": {
@@ -217,12 +229,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_12\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_12\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 12\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(12)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(12)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 12<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "13": {
+        {
             "type": "Feature",
             "id": 13,
             "geometry": {
@@ -234,12 +247,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_13\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_13\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 13\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(13)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(13)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 13<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "14": {
+        {
             "type": "Feature",
             "id": 14,
             "geometry": {
@@ -251,12 +265,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_14\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_14\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 14\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(14)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(14)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 14<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "15": {
+        {
             "type": "Feature",
             "id": 15,
             "geometry": {
@@ -267,13 +282,14 @@
                 ]
             },
             "properties": {
-                "status": "занято",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_15\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_15\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 15\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(15)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "status": "свободно",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(15)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 15<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "16": {
+        {
             "type": "Feature",
             "id": 16,
             "geometry": {
@@ -285,12 +301,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_16\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_16\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 16\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(16)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(16)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 16<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "17": {
+        {
             "type": "Feature",
             "id": 17,
             "geometry": {
@@ -302,12 +319,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_17\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_17\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 17\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(17)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(17)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 17<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "18": {
+        {
             "type": "Feature",
             "id": 18,
             "geometry": {
@@ -319,12 +337,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_18\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_18\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 18\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(18)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(18)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 18<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "19": {
+        {
             "type": "Feature",
             "id": 19,
             "geometry": {
@@ -336,12 +355,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_19\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_19\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 19\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(19)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(19)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 19<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "20": {
+        {
             "type": "Feature",
             "id": 20,
             "geometry": {
@@ -353,12 +373,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_20\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_20\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 20\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(20)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(20)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 20<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "21": {
+        {
             "type": "Feature",
             "id": 21,
             "geometry": {
@@ -370,12 +391,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_21\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_21\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 21\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(21)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(21)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 21<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "22": {
+        {
             "type": "Feature",
             "id": 22,
             "geometry": {
@@ -387,12 +409,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_22\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_22\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 22\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(22)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(22)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 22<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "23": {
+        {
             "type": "Feature",
             "id": 23,
             "geometry": {
@@ -404,12 +427,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_23\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_23\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 23\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(23)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(23)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 23<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "24": {
+        {
             "type": "Feature",
             "id": 24,
             "geometry": {
@@ -421,12 +445,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_24\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_24\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 24\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(24)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(24)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 24<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "25": {
+        {
             "type": "Feature",
             "id": 25,
             "geometry": {
@@ -438,12 +463,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_25\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_25\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 25\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(25)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(25)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 25<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "26": {
+        {
             "type": "Feature",
             "id": 26,
             "geometry": {
@@ -455,12 +481,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_26\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_26\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 26\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(26)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(26)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 26<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "27": {
+        {
             "type": "Feature",
             "id": 27,
             "geometry": {
@@ -472,12 +499,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_27\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_27\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 27\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(27)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(27)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 27<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "28": {
+        {
             "type": "Feature",
             "id": 28,
             "geometry": {
@@ -489,12 +517,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_28\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_28\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 28\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(28)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(28)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 28<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "29": {
+        {
             "type": "Feature",
             "id": 29,
             "geometry": {
@@ -506,12 +535,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_29\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_29\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 29\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(29)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(29)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 29<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "30": {
+        {
             "type": "Feature",
             "id": 30,
             "geometry": {
@@ -523,12 +553,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_30\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_30\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 30\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(30)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(30)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 30<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "31": {
+        {
             "type": "Feature",
             "id": 31,
             "geometry": {
@@ -540,12 +571,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_31\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_31\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 31\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(31)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(31)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 31<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "32": {
+        {
             "type": "Feature",
             "id": 32,
             "geometry": {
@@ -557,12 +589,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_32\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_32\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 32\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(32)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(32)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 32<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "33": {
+        {
             "type": "Feature",
             "id": 33,
             "geometry": {
@@ -574,12 +607,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_33\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_33\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 33\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(33)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(33)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 33<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "34": {
+        {
             "type": "Feature",
             "id": 34,
             "geometry": {
@@ -591,12 +625,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_34\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_34\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 34\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(34)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(34)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 34<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "35": {
+        {
             "type": "Feature",
             "id": 35,
             "geometry": {
@@ -607,13 +642,14 @@
                 ]
             },
             "properties": {
-                "status": "занято",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_35\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_35\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 35\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(35)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "status": "свободно",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(35)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 35<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "36": {
+        {
             "type": "Feature",
             "id": 36,
             "geometry": {
@@ -625,12 +661,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_36\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_36\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 36\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(36)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(36)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 36<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "37": {
+        {
             "type": "Feature",
             "id": 37,
             "geometry": {
@@ -642,12 +679,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_37\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_37\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 37\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(37)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(37)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 37<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "38": {
+        {
             "type": "Feature",
             "id": 38,
             "geometry": {
@@ -659,12 +697,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_38\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_38\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 38\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(38)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(38)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 38<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "39": {
+        {
             "type": "Feature",
             "id": 39,
             "geometry": {
@@ -676,13 +715,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_39\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_39\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 39\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(39)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E",
-                "state": "занято"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(39)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 39<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "40": {
+        {
             "type": "Feature",
             "id": 40,
             "geometry": {
@@ -694,12 +733,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_40\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_40\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 40\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(40)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(40)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 40<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "41": {
+        {
             "type": "Feature",
             "id": 41,
             "geometry": {
@@ -711,12 +751,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_41\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_41\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 41\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(41)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(41)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 41<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "42": {
+        {
             "type": "Feature",
             "id": 42,
             "geometry": {
@@ -728,12 +769,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_42\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_42\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 42\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(42)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(42)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 42<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "43": {
+        {
             "type": "Feature",
             "id": 43,
             "geometry": {
@@ -745,12 +787,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_43\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_43\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 43\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(43)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(43)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 43<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "44": {
+        {
             "type": "Feature",
             "id": 44,
             "geometry": {
@@ -762,12 +805,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_44\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_44\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 44\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(44)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(44)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 44<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "45": {
+        {
             "type": "Feature",
             "id": 45,
             "geometry": {
@@ -779,12 +823,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_45\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_45\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 45\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(45)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(45)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 45<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "46": {
+        {
             "type": "Feature",
             "id": 46,
             "geometry": {
@@ -796,12 +841,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_46\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_46\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 46\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(46)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(46)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 46<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "47": {
+        {
             "type": "Feature",
             "id": 47,
             "geometry": {
@@ -813,12 +859,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_47\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_47\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 47\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(47)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(47)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 47<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "48": {
+        {
             "type": "Feature",
             "id": 48,
             "geometry": {
@@ -830,12 +877,13 @@
             },
             "properties": {
                 "status": "свободно",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_48\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_48\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 48\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(48)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(48)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 48<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         },
-        "49": {
+        {
             "type": "Feature",
             "id": 49,
             "geometry": {
@@ -846,16 +894,12 @@
                 ]
             },
             "properties": {
-                "status": "занято",
-                "balloonContentHeader": "\u003Cfont size=3\u003E\u003Cb\u003EАдрес\u003C\/b\u003E\u003C\/font\u003E",
-                "balloonContentBody": "\u003Cdiv id=\u0027balloon_49\u0027\u003E\u003Cp\u003EСтатус: \u003Cspan id=\u0027status_49\u0027\u003Eсвободно\u003C\/span\u003E\u003Cp\u003EID: 49\u003C\/p\u003E\u003C\/p\u003E\u003Cbutton onclick=\u0027changeStatus(49)\u0027\u003EИзменить статус\u003C\/button\u003E",
-                "clusterCaption": "\u003Cstrong\u003EАдрес\u003C\/strong\u003E"
-            }
-        },
-        "": {
-            "properties": {
-                "status": null
+                "status": "свободно",
+                "balloonContentHeader": "<font size=3><b>Адрес<\/b><\/font>",
+                "balloonContentBody": "<p>Статус: свободно<\/p><p><button onclick='changeStatus(49)'>Изменить статус<\/button><\/p>",
+                "balloonContentFooter": "<font size=1>ID: 49<\/font>",
+                "clusterCaption": "<strong>Адрес<\/strong>"
             }
         }
-    }
+    ]
 }
