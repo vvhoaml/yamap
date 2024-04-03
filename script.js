@@ -1,70 +1,110 @@
 var myMap;
-var objectManager;
 
 ymaps.ready(init);
 
-function init () {
+function init() {
     myMap = new ymaps.Map('map', {
-        center: [55.76, 37.64],
-        zoom: 10
-    }, {
-        searchControlProvider: 'yandex#search'
-    });
+            center: [55.76, 37.64],
+            zoom: 10,
+            controls: ["geolocationControl", "zoomControl", "typeSelector"]
+        }, {
+            searchControlProvider: 'yandex#search'
+        });
 
     objectManager = new ymaps.ObjectManager({
         clusterize: true,
-        gridSize: 32,
-        clusterDisableClickZoom: true
+        gridSize: 64,
+        clusterIconLayout: "default#pieChart"
     });
 
     myMap.geoObjects.add(objectManager);
-    myMap.controls.remove('searchControl');
-    myMap.controls.remove('trafficControl');
-    myMap.controls.remove('fullscreenControl');
+
+    var listBoxItems = ['Свободно', 'Занято'].map(function (title) {
+        return new ymaps.control.ListBoxItem({
+            data: {
+                content: title
+            },
+            state: {
+                selected: true
+            }
+        });
+    });
+
+    var listBoxControl = new ymaps.control.ListBox({
+        data: {
+            content: 'Фильтр',
+            title: 'Фильтр'
+        },
+        items: listBoxItems,
+        state: {
+            expanded: true,
+            filters: listBoxItems.reduce(function (filters, filter) {
+                filters[filter.data.get('content')] = filter.isSelected();
+                return filters;
+            }, {})
+        }
+    });
+
+    myMap.controls.add(listBoxControl);
+
+    listBoxControl.events.add(['select', 'deselect'], function (e) {
+        var listBoxItem = e.get('target');
+        var filters = ymaps.util.extend({}, listBoxControl.state.get('filters'));
+        filters[listBoxItem.data.get('content')] = listBoxItem.isSelected();
+        listBoxControl.state.set('filters', filters);
+    });
+
+    var filterMonitor = new ymaps.Monitor(listBoxControl.state);
+    filterMonitor.add('filters', function (filters) {
+        objectManager.setFilter(getFilterFunction(filters));
+    });
+
+    function getFilterFunction(categories) {
+        return function (obj) {
+            var content = obj.properties.balloonContentHeader;
+            return categories[content];
+        };
+    }
 
     $.ajax({
-        url: "objects.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    });
+		url: "objects.json"
+	}).done(function (data) {
+		objectManager.add(data);
+	});
 }
 
 function changeStatus(id) {
-    var feature = objectManager.objects.getById(id);
-    if (feature) {
-        if (feature.properties.status === "свободно") {
-            feature.properties.status = "занято";
-            objectManager.objects.options.set('preset', 'islands#greenDotIcon');
-    		objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
-        } else {
-            feature.properties.status = "свободно";
-            objectManager.objects.options.set('preset', 'islands#redDotIcon');
-    		objectManager.clusters.options.set('preset', 'islands#redClusterIcons');
-        }
-        objectManager.objects.balloon.open(id);
-        objectManager.objects.balloon.setData(feature.properties);
-		newStatus = feature.properties.status;
-        
-        objectManager.objects.setObjectOptions(id, feature);
-        
-        objectManager.objects.balloon.close();
-        objectManager.objects.balloon.open(id);
-        objectManager.objects.balloon.setData(feature.properties);
+    var object = objectManager.objects.getById(id);
+    var newStatus;
+	var newColor;
 
-        $.ajax({
-			url: "updateStatus.php",
-			type: "POST",
-			contentType: "application/json",
-			data: JSON.stringify({
-				id: id,
-				status: newStatus
-			}),
-			success: function(response) {
-				console.log("Данные сохранены");
-			},
-			error: function(xhr, status, error) {
-				console.error("Ошибка при сохранении данных");
-			}
-		});
-    }
+	if (object.properties.balloonContentHeader === "Занято") {
+		newStatus = "Свободно";
+	} else {
+		newStatus = "Занято";
+	}
+	
+	if (newStatus === "Занято") {
+		newColor = "islands#redCircleDotIconWithCaption";
+	} else {
+		newColor = "islands#greenCircleDotIconWithCaption";
+	}
+
+    objectManager.objects.setObjectProperties(id, { 
+        balloonContentHeader: newStatus,
+        clusterCaption: newStatus,
+        iconCaption: newStatus
+    });
+	objectManager.objects.setObjectOptions(id, {preset: newColor});
+	myMap.balloon.close();
+
+    $.ajax({
+        url: "updateStatus.php", 
+        method: "POST",
+        contentType: "application/json",
+        data: JSON.stringify({
+            id: id,
+            status: newStatus
+        })
+    });
 }

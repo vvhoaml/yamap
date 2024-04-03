@@ -1,34 +1,24 @@
 <?php
 
-header('Content-Type: application/json; charset=utf-8');
+$data = json_decode(file_get_contents('php://input'), true);
+$file = 'objects.json';
 
-$postData = json_decode(file_get_contents('php://input'), true);
+$current_data = json_decode(file_get_contents($file), true);
 
-if (!isset($postData['id']) || !isset($postData['status'])) {
-    echo json_encode(array('success' => false, 'error' => 'Недостаточно данных для обновления', 'received_data' => $postData));
-    exit;
-}
-
-$id = $postData['id'];
-$status = $postData['status'];
-$jsonFile = 'objects.json';
-$jsonData = json_decode(file_get_contents($jsonFile), true);
-
-if (empty($jsonData) || !isset($jsonData['features'])) {
-    echo json_encode(array('success' => false, 'error' => 'Ошибка чтения данных из JSON файла'));
-    exit;
-}
-
-foreach ($jsonData['features'] as &$feature) {
-    if ($feature['id'] == $id) {
-        $feature['properties']['status'] = $status;
-        break;
+    foreach ($current_data['features'] as &$feature) {
+        if ($feature['id'] == $data['id']) {
+            $feature['properties']['balloonContentHeader'] = $data['status'];
+			$feature['properties']['clusterCaption'] = $data['status'];
+			$feature['properties']['iconCaption'] = $data['status'];
+			if ($data['status'] == 'Свободно') {
+				$feature['options']['preset'] = 'islands#greenCircleDotIconWithCaption';
+			} else {
+				$feature['options']['preset'] = 'islands#redCircleDotIconWithCaption';
+			}
+            break;
+        }
     }
-}
 
-if (file_put_contents($jsonFile, json_encode($jsonData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)) !== false) {
-    echo json_encode(array('success' => true));
-} else {
-    echo json_encode(array('success' => false, 'error' => 'Ошибка записи в файл'));
-}
+    file_put_contents($file, json_encode($current_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    exit;
 ?>
